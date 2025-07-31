@@ -1,0 +1,16 @@
+kidsgadgets_site/
+├── public/
+│   └── images/ (I'll list image names separately)
+├── src/
+│   ├── components/
+│   │   └── CartDrawer.jsx
+│   │   └── CheckoutForm.jsx
+│   └── pages/
+│       └── KidsGadgetsHome.jsx
+│   └── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.j
