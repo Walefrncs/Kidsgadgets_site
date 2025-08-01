@@ -14,3 +14,8 @@ kidsgadgets_site/
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── vite.config.j
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+}
