@@ -62,4 +62,11 @@ export default function CartDrawer({ open, onClose, cart, setCart }) {
       )}
     </Dialog>
   );
-      
+      // Optionally update addToCart to prevent duplicates
+const addToCart = (item) => {
+  setCart((prev) => {
+    const exists = prev.find((p) => p.name === item.name);
+    if (exists) return prev; // skip if already in cart
+    return [...prev, item];
+  });
+};
